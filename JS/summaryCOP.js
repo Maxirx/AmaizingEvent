@@ -11,7 +11,7 @@ var maximosPorCategoria = []
 var eventosPasados = []
 var fechaDeHoy = ""
 
-
+aaaaaaaaaaaaa
 async function getData() {
     await fetch("https://amazingeventsapi.herokuapp.com/api/eventos")
         .then((response) => response.json())
