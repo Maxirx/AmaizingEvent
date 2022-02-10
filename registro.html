@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./styles/custom.css">
+</head>
+
+<body>
+    <header>
+        <a href="./pasados.html" class="boton"><button class="visible">Eventos Pasados</button></a>
+        <a href="./index.html"><img src="./Imagenes/logo.png" alt="logo" id="logo"></a>
+        <a href="./proximos.html" class="boton"><button class="visible">Futuros Eventos</button></a>
+    </header>
+    <main id="registro">
+        <form action="" id="Form">
+            <div id="A1" class="altura">
+                <label for="nombre">
+                    Nombre Completo
+                </label>
+                <input type="text" id="nombre" placeholder="Nombres" name="Nombre">
+            </div>
+            <div id="B1" class="altura">
+                <label for="mail">
+                    Email
+                </label>
+                <input type="email" id="mail" name="email" placeholder="Email">
+            </div>
+            <div id="A2" class="altura">
+                <label for="Contraseña">
+                    Contraseña
+                </label>
+                <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña">
+            </div>
+            <div id="B2" class="altura">
+                <label for="DC">
+                    Contraseña (confirma)
+                </label>
+                <input type="password" id="contraseña" name="Contrase" placeholder="Confirmar contraseña">
+            </div>
+            <div id="AB3" class="altura">
+                <label for="user">
+                    Tipo de Usuario
+                </label>
+                <select name="Usuario" id="user" placeholder="seleccione">
+                    <option value="">Seleccione</option>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </div>
+            <div id="AB4" class="altura">
+                <input type="checkbox" id="TyC">
+                <label for="TyC" id="TyC">
+                    Acepto los términos y condiciones
+                </label>
+            </div>
+            <div id="AB5" class="altura">
+                <input type="submit" id="submit" value="Continuar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

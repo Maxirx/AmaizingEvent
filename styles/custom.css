@@ -1,0 +1,537 @@
+* {
+  margin: 0%;
+  box-sizing: content-box;
+  padding: 0%;
+}
+
+body {
+  /*   background-image: url("../Imagenes/Maraton/Maraton2.jpg");
+ */
+  display: flex;
+
+  background-image: url("../Imagenes/18076-luces.jpg");
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+header {
+  height: fit-content;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boton {
+  text-decoration: none;
+  color: aliceblue;
+  font: bolder;
+  width: 20%;
+  height: 5vh;
+}
+
+.visible {
+  width: 100%;
+  height: 5vh;
+  border-radius: 5rem;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: aliceblue;
+
+  font: bolder;
+}
+
+#visibleEV {
+  width: 20%;
+  height: 5vh;
+  border-radius: 5rem;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: aliceblue;
+
+  font: bolder;
+}
+
+#invisible {
+  visibility: collapse;
+  width: 20%;
+}
+
+#logo {
+  width: 200px;
+  height: 100px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+#sendero {
+  justify-content: space-around;
+}
+
+.eventos {
+  width: 70%;
+  height: 10rem;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: darkblue;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+#museos {
+  background-image: url("../Imagenes/Salida-al-museo/Salida\ al\ museo5.jpg");
+  background-size: cover;
+  background-position-y: -3.5rem;
+}
+
+#maraton {
+  background-image: url("../Imagenes/Maraton/Maraton1.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+
+#cine {
+  background-image: url("../Imagenes/Cine/Cine7.jpg");
+  background-size: cover;
+}
+
+#feriaComida {
+  background-image: url("../Imagenes/Feria-de-comidas/Feria\ de\ comidas6.jpg");
+  background-size: cover;
+}
+
+#feriaDisfraces {
+  background-image: url("../Imagenes/Fiesta-de-disfraces/Fiesta\ de\ disfraces6.jpg");
+  background-size: cover;
+  background-position-y: -3rem;
+}
+
+#concierto {
+  background-image: url("../Imagenes/Concierto-de-musica/Concierto\ de\ musica8.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+
+.izquierda {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.derecha {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  text-align: right;
+}
+
+.interiorI {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.interiorD {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.leyenda {
+  height: 10%;
+  background-color: rgba(89, 0, 255, 0.281);
+  z-index: 3;
+  color: aliceblue;
+  width: 99%;
+}
+
+.contemporaneo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: space-between;
+  margin-left: 0%;
+}
+
+.clasico {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: space-between;
+  margin-left: 0%;
+}
+
+#antiguo {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.eventos {
+  width: 51%;
+  height: 10rem;
+  margin-bottom: 3rem;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: darkblue;
+}
+
+/* pagina 2 */
+
+.nuevos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  height: fit-content;
+  color: violet;
+  color: fuchsia;
+}
+
+h3 {
+  text-align: center;
+  color: fuchsia;
+  color: white;
+}
+
+.camino {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+  min-width: 100%;
+}
+
+#salida {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  min-width: 100%;
+  margin-top: 3rem;
+
+  height: 100%;
+}
+
+#checkboxCatergorias {
+  display: inline-block;
+}
+
+.moderno {
+  height: 100%;
+
+  width: 100%;
+}
+
+.proximos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 30%;
+  height: 20vh;
+  margin-top: 3rem;
+}
+
+p {
+  color: white;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.verde {
+  color: chartreuse;
+}
+
+#cinema {
+  background-image: url("../Imagenes/Cine/Cine2.jpg");
+}
+
+#fiestara {
+  background-image: url("../Imagenes/Fiesta-de-disfraces/Fiesta\ de\ disfraces2.jpg");
+}
+
+#conciertoplus {
+  background-image: url("../Imagenes/Concierto-de-musica/Concierto\ de\ musica6.jpg");
+}
+
+/* pagina 3 */
+
+#Feria {
+  background-image: url("../Imagenes/Feria-de-comidas/Feria\ de\ comidas7.jpg");
+}
+
+#salidamuseo {
+  background-image: url("../Imagenes/Salida-al-museo/Salida\ al\ museo7.jpg");
+}
+
+#Libros {
+  background-image: url("../Imagenes/Salida-al-museo/Salida\ al\ museo1.jpg");
+}
+
+#Carrera {
+  background-image: url("../Imagenes/Maraton/Maraton2.jpg");
+}
+
+.filters {
+  width: 75vh;
+  height: 20%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+
+#checkboxCatergorias {
+  width: 100%;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.checkboxCat {
+  width: 10px;
+  height: 10px;
+}
+
+/* Formulario */
+
+#registro {
+  margin-top: 5rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#Form {
+  width: 80vh;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+label {
+  color: ghostwhite;
+}
+
+input {
+  height: 50%;
+}
+
+#InputText {
+  height: 2rem;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.altura {
+  height: 10%;
+  width: 50%;
+}
+
+#A1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#B1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#A2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#B2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#AB3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#AB4 {
+  display: flex;
+  justify-items: stretch;
+  width: 100%;
+}
+
+#user {
+  width: 50%;
+  height: 50%;
+}
+
+#AB5 {
+  display: flex;
+  flex-direction: column;
+}
+
+#TyC {
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  border-radius: 3rem;
+  background-color: rgb(240, 114, 11);
+}
+
+/* pagina detalle */
+
+#callejon {
+  align-items: space-between;
+}
+
+#primitivo {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+  h2 {
+    font-size: 0.9em;
+  }
+
+  .leyenda {
+    font-size: 0.7em;
+  }
+
+  .altura {
+    width: 70vw;
+  }
+  #Form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #AB4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #AB3 {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.color {
+  color: blueviolet !important;
+}
+
+@media (max-width: 770px) and (orientation: landscape) {
+  h2 {
+    font-size: 1em;
+  }
+
+  .leyenda {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 0.9em;
+  }
+
+  .leyenda {
+    font-size: 0.5em;
+  }
+
+  #museos {
+    background-image: url("../Imagenes/Salida-al-museo/Salida\ al\ museo5.jpg");
+    background-size: cover;
+    background-position-y: center;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  main {
+    width: 100vw;
+    min-height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .alternativo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .clasico {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 0%;
+  }
+
+  #sendero {
+    max-height: 100%;
+  }
+}
