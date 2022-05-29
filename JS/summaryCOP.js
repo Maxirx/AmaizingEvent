@@ -214,7 +214,7 @@ function data(datos) {
     console.log(prueba);
 
     let test = []
-    let test2 = []
+    const test2 = []
     for (let i = 0; i < prueba.length; i++) {
         test = Math.max(...prueba[i])
         test2.push(test)
