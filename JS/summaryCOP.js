@@ -208,7 +208,21 @@ function data(datos) {
 
     console.log(datosPorCategoria);
 
+    ///////////////////////////////////////// VERSION ALTERNATIVA DE ASISTENCIA ///////////////////////////////////////
+    var prueba = categoriasUnicas.map(cat =>
+        eventosPasados.map(datos => datos.category == cat ? datos.assistance : 0))
+    console.log(prueba);
 
+    var test = []
+    var test2 = []
+    for (let i = 0; i < prueba.length; i++) {
+        test = Math.max(...prueba[i])
+        test2.push(test)
+    }
+
+    console.log(test2);
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     datosPorCategoria.forEach(cate => {
 
@@ -408,3 +422,5 @@ tablaGeneral()
 function tablaSecundaria(params) {
 
 }
+
+

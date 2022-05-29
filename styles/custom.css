@@ -456,6 +456,7 @@ input {
   .altura {
     width: 70vw;
   }
+
   #Form {
     display: flex;
     flex-wrap: wrap;
